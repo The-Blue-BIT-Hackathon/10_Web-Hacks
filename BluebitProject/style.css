@@ -1,0 +1,299 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+  }
+  
+  #logo {
+    margin: 10px 10px;
+    width: 140px;
+    border-radius: 25px;
+    top: 4%;
+    left: 10%;
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  header::before {
+    background: url("https://img.freepik.com/free-photo/business-partners-handshake-global-corporate-with-technology-concept_53876-102615.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-repeat: repeat;
+    /* background-repeat: repeat-y; */
+    background-size: auto;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+  }
+  
+  .navigation {
+    font-family: "Bree Serif", serif;
+    font-size: 12px;
+    display: flex;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: darkgrey;
+  }
+  
+  li {
+    font-size: 20px;
+    list-style: none;
+    padding: 10px 25px;
+  }
+  
+  #title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .form-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input {
+    height: 28px;
+    border-radius: 5px;
+  }
+  
+  #btn {
+    border-radius: 5px;
+    display: block;
+    height: 45px;
+    margin: auto;
+    font-size: 25px;
+  }
+  
+  #btn:hover {
+    background-color: lightblue;
+    cursor: pointer;
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 5px;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  .card a {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  
+  .services {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .service {
+    background-color: #1badde;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px;
+    flex-basis: calc(33.33% - 40px);
+    text-align: center;
+  }
+  
+  .service i {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .service p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .contact {
+    background-color: #b2baba;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 5px;
+    border-radius: 25px;
+    border: solid;
+    margin-bottom: 20px;
+    flex-basis: 100%;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: solid;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .job {
+    margin: 4px 4px;
+    padding: 4px 4px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .card-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-list a:hover {
+    background-color: aqua;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form input {
+    text-align: center;
+    width: 400px;
+    background-color: lightgray;
+  }
+  
+  .form button {
+    text-align: center;
+    font-size: larger;
+    width: 100px;
+    height: 50px;
+  }
+  
+  .form textarea {
+    width: 400px;
+    text-align: center;
+  }
+  
+  .form button:hover {
+    background-color: #b2baba;
+  }
+  input:focus {
+    background-color: aquamarine;
+  }
